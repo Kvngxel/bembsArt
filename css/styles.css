@@ -1,0 +1,306 @@
+/*************** TAG SECTION *******************/
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  margin-bottom: 4.5rem;
+}
+
+#hd {
+  font-family: 'Roboto Thin 100', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.form_class{
+  position: absolute;
+}
+.instagram{
+  margin-left: 150px;
+  width: 100%;
+}
+.instagram2{
+  margin-left: 120px;
+  width: 130px;
+}
+.instagram3{
+  margin-left: 150px;
+  width: 60%;
+}
+.whatsapp{
+  width: 100%;
+}
+.whatsapp2{
+  margin-top: 20px;
+  width: 130px;
+}
+.whatsapp3{
+  width: 60%;
+}
+
+/*************** CLASS SECTION *******************/
+.navbar-item {
+  margin: 0 10px;
+}
+
+.test_img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.img2{
+  visibility: hidden;
+}
+
+/*************** ID SECTION *******************/
+#navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+}
+
+#title {
+  color: #fff;
+  padding: 30px 0 55px;
+}
+
+#container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  transform: rotate(25deg);
+  width: 18%;
+  right: 30%;
+}
+
+/* Body */
+.font-awesome {
+  color: #ef8172;
+  margin: 30px auto;
+  font-size: 3rem;
+}
+
+.font-awesome:hover {
+  color: #ff4c68;
+}
+/******************** Features Section******************/
+#features{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  position: relative;
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 1.2rem;
+  width: auto .8rem;
+}
+.top-text-testimonial {
+  font-size: 1rem;
+  margin-left: 10px;
+  text-align: left;
+  width: auto .8rem;
+}
+
+.top-text-testimonial-2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.button-div{
+  margin-right: 450px;
+}
+
+.c-top-text {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin: 30px 10px;
+  text-align: left;
+  width: auto .8rem;
+}
+
+
+.inner-text {
+  font-weight: lighter;
+  color: #8f8f8f;
+  width: 0 .6rem;
+}
+
+/************************ Testimonials Section **********************/
+#testimonials {
+  background-color: #e7e6e1;
+  text-align: center;
+}
+
+.h2 {
+  color: #e7e7de;
+  font-family: "Montserrat-Black", sans-serif;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.carousel-item {
+  padding: 80px 0 50px;
+}
+
+.bembsart-img {
+  border-radius: 100%;
+  margin: 20px 20px 40px;
+  width: 55%;
+}
+
+.contact-img {
+  border-radius: 100%;
+  margin: 40px 20px 40px 300px;
+  text-align: right;
+  width: 25%;
+}
+
+.tiles{
+  background-color: #eff7e1;
+  margin: 6px 3px;
+}
+
+.dog-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 4%;
+}
+
+/************************ logo Section **********************/
+#press {
+  background-color: #e7e6e1;
+  text-align: center;
+  padding: 20px;
+}
+
+.press-img {
+  width: 10%;
+  margin: 10px 30px;
+}
+
+/************************ Pricing Section **********************/
+#pricing{
+  margin: 5% 12%;
+  text-align: center;
+}
+
+.card-class {
+  margin: 25px 3%;
+}
+
+
+/************************ CTA **********************/
+
+#cta{
+  background-color: #9a8194;
+  padding: 4% 15% 10%;
+  text-align: center;
+}
+.cta-class{
+  color: #e7e7de;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/************************ Mobile View **********************/
+
+#footer{
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: .8rem;
+  padding: 20px;
+  text-align: center;
+}
+
+#fa-footer{
+  margin: 40px 30px 0;
+  text-align: center;
+}
+
+#info{
+  margin-top: 20px;
+}
+
+.f-icon{
+  margin: 0 10px;
+}
+
+/************************ Mobile View **********************/
+
+/************************ Mobile View **********************/
+
+@media (max-width: 1000px) {
+  .title-image{
+    visibility: collapse;
+    transform: rotate(0);
+    position: absolute;
+    width: 50%;
+  }
+
+  .img{
+    visibility: hidden;
+  }
+
+  .img2{
+    visibility: visible;
+    width: auto 100%;
+  }
+
+  .contact-img{
+    margin: 30px auto;
+    width: 50%;
+  }
+
+  .top-text-testimonial {
+    font-size: 1rem;
+    margin-left: 10px;
+    text-align: left;
+    width: auto .8rem;
+  }
+
+  .top-text-testimonial-2 {
+    margin: auto;
+  }
+
+  .button-div{
+    margin: auto;
+  }
+
+  .c-top-text {
+    margin: auto;
+  }
+  .instagram3{
+    margin-left: 150px;
+    width: 50%;
+  }
+  .whatsapp3{
+    width: 50%;
+  }
+
+  #title {
+    color: #fff;
+    padding: 60px 0 155px;
+  }
+  #cta{
+    padding: 4% 15% 17%;
+  }
+
+}
